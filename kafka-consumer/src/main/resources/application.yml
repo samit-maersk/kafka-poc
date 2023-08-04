@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: @project.name@
+  kafka:
+    bootstrap-servers: http://localhost:9092
+    topicName: test-one
+    consumer:
+      group-id: group.one
+
+server:
+  port: 9090
